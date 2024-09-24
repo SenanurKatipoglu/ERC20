@@ -2,6 +2,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("io.gitlab.arturbosch.detekt").version("1.21.0")
+
 }
 
 android {
@@ -76,6 +77,4 @@ dependencies {
     //web3 js
     implementation ("org.web3j:core:4.8.7")
 
-    // MetaMask
-    implementation ("io.metamask.androidsdk:metamask-android-sdk")
 }
