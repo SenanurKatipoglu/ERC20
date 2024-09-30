@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.example.erc20token.screen.dashboard.DashboardScreen
 import com.example.erc20token.screen.login.LoginScreen
 
 /**
@@ -14,7 +15,7 @@ import com.example.erc20token.screen.login.LoginScreen
 fun AppNavigation(navController: NavHostController){
  NavHost(navController = navController, startDestination = "Login"){
      composable("Login"){
-         LoginScreen()
+         DashboardScreen()
      }
  }
 

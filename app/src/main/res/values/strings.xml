@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ERC20Token</string>
+    <string name="main_wallet">"Main Wallet"</string>
 </resources>
